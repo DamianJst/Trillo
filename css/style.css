@@ -57,7 +57,10 @@ body {
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2); }
+  border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .content {
   display: flex; }
@@ -67,7 +70,7 @@ body {
   flex: 0 0 18%; }
 
 .hotel-view {
-  background-color: #fff;
+  background-color: orangered;
   flex: 1; }
 
 /*------------------------------------------------LOGO-------------------------------------------------*/
